@@ -1,0 +1,22 @@
+
+target/
+dbt_packages/
+logs/
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore build artifacts
+/dist/
+/build/
+
+/node_modules/
+
+/.venv/
+
+/*.log
+
+# Ignore environment variables
+.env
